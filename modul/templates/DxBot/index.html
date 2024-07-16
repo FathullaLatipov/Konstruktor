@@ -1,0 +1,516 @@
+{% load static %}
+<!doctype html>
+<html lang="en-US">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+          integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="{% static 'style.css' %}" type="text/css"/>
+
+    <!-- Ionic icons -->
+    <link href="https://unpkg.com/ionicons@4.2.0/dist/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+
+    <title>DxBot.ru</title>
+</head>
+
+<body>
+<style>
+    @media (min-width: 600px) {
+      .nav-logo-mobile{
+        display: none;
+      }
+      .nav-logo-mobile h3 {
+        display: none;
+      }
+      #COM {
+        padding: 8px;
+      }
+    }
+
+    @media (max-width:599px) {
+      #COM {
+        padding: 20px 0;
+      text-align: left;
+      }
+    }
+    .nav-logo-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-logo-mobile img {
+        margin-right: 10px;
+    }
+    .nav-logo-mobile h3 {
+        color: #000;
+        margin: 0;
+    }
+    .btn.btn-regular.rounded-btn {
+        border-radius: 12px !important;
+    }
+    @media (max-width: 767px) {
+    .btn-centered {
+      display: block;
+      margin: 10px auto; /* Центрирование и отступы сверху и снизу */
+      padding: 10px 20px;
+      width: 80%; /* Ширина кнопки на мобильных устройствах */
+    }
+  }
+</style>
+<!-- <script async src="https://telegram.org/js/telegram-widget.js?15" data-telegram-login="<your_bot_username>" data-size="large" data-auth-url="https://your-domain.com/telegram/login/" data-request-access="write"></script> -->
+<!-- N A V B A R -->
+<nav class="navbar navbar-default navbar-expand-lg fixed-top custom-navbar">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon ion-md-menu"></span>
+    </button>
+    <!-- <img src="images/logo.png" class="img-fluid nav-logo-mobile" alt="Company Logo"> -->
+    <a href="" class="nav-logo-mobile">
+        <!-- <img src="images/logo2.png" width="30px" alt=""> -->
+        <h3>DxBot.ru</h3>
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="container">
+            <img class="img-fluid nav-logo-desktop"><span style="font-size: 29px;">DxBot.ru</span>
+            <ul class="navbar-nav ml-auto nav-right" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+                <li class="nav-item nav-custom-link">
+                    <a class="nav-link" href="#pricing">Создать бота <i
+                            class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                </li>
+                <li class="nav-item nav-custom-link">
+                    <a class="nav-link" href="#marketing">Мои боты <i
+                            class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                </li>
+                <li class="nav-item nav-custom-link">
+                    <a class="nav-link" href="#faq">FAQ <i class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                </li>
+                <li class="nav-item nav-custom-link" id="COM">
+                    <a class="nav-links" href="https://t.me/DxBot_News" style="text-decoration: none;">Комьюнити <i
+                            class="icon ion-ios-arrow-forward icon-mobile"></i></a>
+                </li>
+{#                <li class="nav-item nav-custom-link btn btn-demo-small" style="border-radius: 20px !important;">#}
+{#                    <a class="nav-links" style="padding:10px !important; margin-top:15px !important" href="https://t.me/Brogame_bot?start=hello">Войти </a>#}
+{#                </li>#}
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- E N D  N A V B A R -->
+
+<!-- H E R O -->
+<section id="hero" style="padding-bottom: 20px;padding-top: 80px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                <img src="{% static 'images/saad.png' %}" id="image-test" class="img-fluid" alt="Demo image">
+            </div>
+            <div class="col-md-7 content-box hero-content">
+                <p style="color:#000; font-size: 22px !important;"><b>DxBot.ru</b> - <b>это ваш ключ к миру
+                    Telegram-ботов</b></p>
+                <p style="color:#000;padding-top: 24px;">Простой и эффективный сервис для создания ботов, который
+                    упрощает и стандартизирует процессы программирования, помогая вам добиться значительных результатов
+                    с минимальными усилиями.
+                </p>
+                <br>
+                <a href="https://t.me/Brogame_bot?start=hello" class="btn btn-regular btn-centered"
+                   style="font-size: 18px; border-radius: 12px;" target="_blank" rel="noopener noreferrer">
+                    Войти
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- E N D  H E R O -->
+
+<!-- E N D  M A R K E T I N G -->
+<section id="marketing" style="padding: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="content-box">
+                    <h2>Продвижение и рост аудитории </h2>
+                    <p>Встроенная реферальная система во всех ботах нашего сервиса гарантирует быстрый и эффективный
+                        рост аудитории, что обеспечивает вас заработком уже с первого пользователя</p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <img src="{% static 'images/shut.jpg' %}" class="img-fluid" alt="Demo image">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- E N D  M A R K E T I N G -->
+
+<!-- T E S T I M O N I A L S -->
+<!-- <section id="testimonials">
+  <div class="container">
+    <div class="title-block">
+      <h2>The Best Digital Agencies Recommend Our Software</h2>
+      <p>Industry experts mention their experience using our software and the excellent results they have achieved</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="testimonial-box">
+          <div class="row personal-info">
+            <div class="col-md-2 col-xs-2">
+              <div class="profile-picture review-one"></div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+              <h6>Joshua M. Salas <span class="rating">5 <i class="icon ion-md-star"></i></span></h6>
+              <small>Marketing Intelligence | Author & Content Creator</small>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur scelerisque, tortor nec mattis feugiat, velit purus euismod odio, quis vulputate velit urna sit amet enim. Maecenas vulputate auctor ligula sed sollicitudin.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="testimonial-box">
+          <div class="row personal-info">
+            <div class="col-md-2 col-xs-2">
+              <div class="profile-picture review-one"></div>
+            </div>
+            <div class="col-md-10 col-xs-10">
+              <h6>Michael Edwards <span class="rating">5 <i class="icon ion-md-star"></i></span></h6>
+              <small>Seo Consultant | Author & Content Creator</small>
+            </div>
+          </div>
+          <p>In euismod, metus ac elementum tincidunt, dui eros ullamcorper lorem, at euismod augue augue quis leo. Fusce non dui augue. In hac habitasse platea dictumst. Mauris quis lacinia mauris. Proin ut pretium quam. Nam at ex finibus.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+<!-- E N D  T E S T I M O N I A L S -->
+
+<!-- P R I C I N G -->
+<section id="pricing" style="padding-bottom: 20px;">
+    <div class="container">
+        <div class="title-block">
+            <h2>Создать бота</h2>
+            <p>Тут вы можете для себя выбрать понравившийся шаблон бота.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pricing-box">
+                    <h3>Реферальный Bot</h3>
+                    <!-- <h6>$9</h6> -->
+                    <img src="{% static 'images/hello2.jpg' %}" width="100%" alt="">
+                    <!-- <small>per month</small> -->
+                    <p>Вы можете сделать себе Реферальный бот!</p>
+                    <!-- <div class="divider-light"></div>
+                    <ul>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Marketing plan</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Seo reporting tool</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Keywords explorer</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Competitive analysis</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
+                    </ul> -->
+                    <div class="text-center">
+                        <a href="#" class="btn btn-buy">Создать ⚙️</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing-box">
+                    <h3>Онлайн Кинотеатр</h3>
+                    <!-- <h6>$9</h6> -->
+                    <img src="{% static 'images/hello2.jpg' %}" width="100%" alt="">
+                    <!-- <small>per month</small> -->
+                    <p>Вы можете сделать себе Онлайн Кинотеатр</p>
+                    <!-- <div class="divider-light"></div>
+                    <ul>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Marketing plan</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Seo reporting tool</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Keywords explorer</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Competitive analysis</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
+                    </ul> -->
+                    <div class="text-center">
+                        <a href="#" class="btn btn-buy">Создать ⚙️</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing-box">
+                    <h3>Bot Знакомств</h3>
+                    <!-- <h6>$9</h6> -->
+                    <img src="{% static 'images/hello2.jpg' %}" width="100%" alt="">
+                    <!-- <small>per month</small> -->
+                    <p>Вы можете сделать себе Бот знакомств!</p>
+                    <!-- <div class="divider-light"></div>
+                    <ul>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Marketing plan</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Seo reporting tool</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Keywords explorer</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Competitive analysis</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
+                    </ul> -->
+                    <div class="text-center">
+                        <a href="#" class="btn btn-buy">Создать ⚙️</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="pricing" style="padding-top: 20px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pricing-box">
+                    <h3>ChatGPT Bot</h3>
+                    <!-- <h6>$9</h6> -->
+                    <img src="{% static 'images/hello2.jpg' %}" width="100%" alt="">
+                    <!-- <small>per month</small> -->
+                    <p>Вы можете сделать себе ChatPGT Bot!</p>
+                    <!-- <div class="divider-light"></div>
+                    <ul>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Marketing plan</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Seo reporting tool</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Keywords explorer</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Competitive analysis</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
+                    </ul> -->
+                    <div class="text-center">
+                        <a href="#" class="btn btn-buy">Создать ⚙️</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="pricing-box">
+                    <h3>All Save бот</h3>
+                    <!-- <h6>$9</h6> -->
+                    <img src="images/hello2.jpg" width="100%" alt="">
+                    <!-- <small>per month</small> -->
+                    <p>Вы можете сделать себе All Save Bot!</p>
+                    <!-- <div class="divider-light"></div>
+                    <ul>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Marketing plan</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Seo reporting tool</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Keywords explorer</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Competitive analysis</li>
+                      <li><i class="icon ion-md-checkmark-circle-outline"></i>Unlimited projects - <span>¡New!</span></li>
+                    </ul> -->
+                    <div class="text-center">
+                        <a href="#" class="btn btn-buy">Создать ⚙️</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- E N D  P R I C I N G -->
+
+<!-- C A L L  T O  A C T I O N -->
+<section id="call-to-action">
+    <div class="container text-center">
+        <h2>Increase your conversion rates now</h2>
+        <div class="title-block">
+            <p>Learn how to increase both your online and offline conversion rates and boost your sales and profits.</p>
+            <a href="#" class="btn btn-regular">Get Started</a>
+        </div>
+    </div>
+</section>
+<!-- E N D  C A L L  T O  A C T I O N -->
+
+<!-- FAQ -->
+<div id="faq">
+    <br>
+</div>
+<br>
+<br>
+<br>
+<div class="container" id="testimonials" style="padding: 30px">
+    <h2>FAQ</h2>
+    <div class="accordion">
+        <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">Чем занимается DxBot.ru?</span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>
+                    DxBot.ru является сервисом для автоматического создания ботов.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button id="accordion-button-2" aria-expanded="false">
+                <span class="accordion-title">Сколько стоит создание бота?</span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Мы создаём ботов совершенно бесплатно.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button id="accordion-button-3" aria-expanded="false">
+                <span class="accordion-title">Каких ботов можно создать?</span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>
+                    В данный момент создать можно:
+                    1. Реферальный Bot
+                    2. Онлайн Кинотеатр
+                    3. Bot Знакомств
+                    4. ChatGPT
+                    5. All Save бот
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button id="accordion-button-4" aria-expanded="false">
+                <span class="accordion-title">Как работает реферальная система?</span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>
+                    В каждом боте нашего сервиса есть кнопка "заработать", которая ведёт в продуманную реф. программу.
+                    Пользователи будут зарабатывать приглашая друзей в бот.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+                <span class="accordion-title">Как вам заработать на реф. системе?</span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>
+                    При запуске бота можно добавить несколько каналов-спонсоров. Администраторы каналов платят вам за
+                    подписчиков, а вы делитесь прибылью с реферами, которые участвуют в реф. системе.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+                <span class="accordion-title">Как создать бота?</span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Для начала нужно выбрать шаблон бота. Далее переходим в @BotFather > /start > /newbot > Ведите
+                    название > Введите никнейм на латинице и с окончанием "bot". В конце вам придет сообщение с Token
+                    HTTP API( пример: 9732158079:AAGTbmZJJ9bU-fJTVU60FV81t7vVWLsHkkE ). Нужно скопировать токен и
+                    вставить его в поле регистрации бота на сайте.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+                <span class="accordion-title">Можно ли убрать первый <br> канал из ОП?</span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Убрать первый канал из списка Обязательных Подписок пока нельзя. Данная функция будет интегрирована
+                    позже.
+                </p>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button id="accordion-button-5" aria-expanded="false">
+                <span class="accordion-title">Можно ли доработать функционал ботов?</span>
+                <span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>
+                    Да! Мы принимаем все ваши предложения и самые лучшие будут использованы в доработке функционала
+                    ботов.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END FAQ -->
+<!--  F O O T E R  -->
+<br>
+<br>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5>Наши контакты</h5>
+                <ul>
+                    <li><a href="https://t.me/Dark_Just" style="font-size: 20px;">Телеграм</a></li>
+                    <li><a href="DarkJustX@gmail.com" style="font-size: 20px;">Почта</a></li>
+                </ul>
+            </div>
+        </div>
+</footer>
+<!--  E N D  F O O T E R  -->
+
+
+<!-- External JavaScripts -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+<script>
+    const items = document.querySelectorAll('.accordion button');
+
+    function toggleAccordion() {
+      const itemToggle = this.getAttribute('aria-expanded');
+
+      for (i = 0; i < items.length; i++) {
+        items[i].setAttribute('aria-expanded', 'false');
+      }
+
+      if (itemToggle == 'false') {
+        this.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    items.forEach((item) => item.addEventListener('click', toggleAccordion));
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const navbarCollapse = document.getElementById('navbarNavDropdown');
+
+      // Smooth scroll
+      const links = document.querySelectorAll('a.nav-link');
+      links.forEach(link => {
+        link.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            window.scroll({
+              top: targetElement.offsetTop,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+
+      // Close navbar on scroll
+      window.addEventListener('scroll', function () {
+        if (window.innerWidth < 992) {
+          navbarCollapse.classList.remove('show');
+        }
+      });
+    });
+</script>
+
+</body>
+</html>

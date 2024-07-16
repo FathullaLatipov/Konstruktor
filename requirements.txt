@@ -1,0 +1,16 @@
+Django~=5.0.6
+pytz~=2024.1
+aiogram~=3.10.0
+fastapi~=0.111.0
+requests~=2.32.3
+APScheduler~=3.10.4
+pydantic~=2.8.2
+aiohttp~=3.9.5
+urllib3~=2.2.1
+asgiref~=3.8.1
+utils~=1.0.2
+python-dotenv~=1.0.1
+StrEnum~=0.4.15
+openpyxl~=3.1.5
+uvicorn~=0.30.1
+sqlalchemy

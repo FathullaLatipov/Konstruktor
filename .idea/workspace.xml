@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="703cb133-094c-4fbb-b47c-2aee762a8e0e" name="Changes" comment="qwe">
+      <change afterPath="$PROJECT_DIR$/modul/clientbot/data/leo6903622577.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modul/clientbot/data/leo889121031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modul/templates/DxBot/The Seo Company Free PSD Template.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modul/templates/DxBot/style/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/demo-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/demo-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/dashboard1.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/dashboard1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/clientbot" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/arial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/arial.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/callback_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/callback_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/states.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/templates/DxBot" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/DxBot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/templates/DxBot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/DxBot/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/create_bot.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/create_bot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/pages-error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/pages-error-404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/pages-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/pages-profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/dashboard1.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dashboard1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/dashboard1.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/dashboard1.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/modul/clientbot" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/modul/templates/DxBot" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2hgGhNBZFEGlJmkJGuzsg7B7iX9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main (1).executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "master",
+    "ignore_missing_gitignore": "true",
+    "last_opened_file_path": "/Users/ibragimkadamzanov/PycharmProjects/pythonProject21/modul",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modul" />
+      <recent name="$PROJECT_DIR$/modul/static/create-bot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+      <recent name="$PROJECT_DIR$/modul/static" />
+      <recent name="$PROJECT_DIR$/modul" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject21" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject21" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modul/bot/main_bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modul/bot/main_bot/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="703cb133-094c-4fbb-b47c-2aee762a8e0e" name="Changes" comment="" />
+      <created>1718008424781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718008424781</updated>
+      <workItem from="1721138841346" duration="1195000" />
+      <workItem from="1721156058553" duration="549000" />
+    </task>
+    <task id="LOCAL-00001" summary="qwe">
+      <option name="closed" value="true" />
+      <created>1721063009300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1721063009300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="qwe" />
+    <option name="LAST_COMMIT_MESSAGE" value="qwe" />
+  </component>
+</project>
