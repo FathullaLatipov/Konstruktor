@@ -5,31 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="703cb133-094c-4fbb-b47c-2aee762a8e0e" name="Changes" comment="qwe">
-      <change afterPath="$PROJECT_DIR$/modul/clientbot/data/leo6903622577.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modul/clientbot/data/leo889121031.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modul/templates/DxBot/The Seo Company Free PSD Template.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modul/templates/DxBot/style/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/demo-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/demo-image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/dashboard1.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/dashboard1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/clientbot" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/arial.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/arial.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/callback_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/callback_datas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/clientbot/data/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/clientbot/data/states.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/templates/DxBot" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/DxBot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/templates/DxBot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/DxBot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/create_bot.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/create_bot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/pages-error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/pages-error-404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/pages-profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/modul/templates/admin-wrap-lite-master/html/pages-profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dashboard1.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dashboard1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/dashboard1.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/dashboard1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject21.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject21.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constructor/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/constructor/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constructor/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/constructor/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +31,7 @@
         <entry key="$PROJECT_DIR$/modul/clientbot" value="main" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/modul/templates/DxBot" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -74,7 +53,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "django.template.preview.state": "SHOW_EDITOR",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
     "last_opened_file_path": "/Users/ibragimkadamzanov/PycharmProjects/pythonProject21/modul",
     "node.js.detected.package.eslint": "true",
@@ -170,7 +149,8 @@
       <option name="presentableId" value="Default" />
       <updated>1718008424781</updated>
       <workItem from="1721138841346" duration="1195000" />
-      <workItem from="1721156058553" duration="1461000" />
+      <workItem from="1721156058553" duration="1743000" />
+      <workItem from="1721242050583" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="qwe">
       <option name="closed" value="true" />
